@@ -1,3 +1,29 @@
+# Guided Capstone Project for Stony Brook University Data Science Bootcamp
+
+In this guided capstone project for the Stony Brook University Data Science Bootcamp program, the Data Science Method is used to explore the following question:
+
+
+What opportunities exist for Big Mountain Resort to best capitalize on their facilities and adjust their ticket price to increase revenue in order to account for higher operating costs this upcoming ski season?
+
+
+A dataset including information from ski resorts across the country was examined to understand which facilities winter sports enthusiasts are willing to pay more for, and how Big Mountain Resort stacks up among its competitors.
+
+
+While exploring the dataset,  initial cleaning steps were performed to edit missing or unusual values, check for duplicate resorts, differentiate a resort’s region versus state, and visualize the distribution of features. 
+
+
+Next, initial modeling was performed to develop an algorithm to predict resort price based on its features. The data was split into a 70/30 train/test split, and a two models were constructed: a linear regression model and a random forest model. The random forest model was selected since it had a lower mean absolute error and less variability as determined through cross validation. 
+
+
+The finalized random forest model was used to estimate the ticket price for Big Mountain Resort. Its modeled price was determined to be $\$$95.87, which is higher than its actual price of $\$$81.
+
+
+In conclusion, it is recommended that Big Mountain Resort should add a run to a point 150 feet lower down and install an additional chair lift to bring skiers back up. The increase in suggested ticket price from these additional features, along with the modeled ticket price, supports a final ticket price of approximately $98. Even with the new features to install and the increased operating cost due to the new chairlift, the higher ticket price should produce enough revenue to account for these expenses. Additionally, Big Mountain could test closing a few runs and reducing ticket price accordingly and observe how this affects the number of visits and revenue. In the future, it would be useful to create a program or an app where the business executives could manipulate the values of the features of Big Mountain resort and see how this affects the modeled price.
+
+
+The original README for this project can be found below.
+
+
 # DataScienceGuidedCapstone
 
 Hello students!
